@@ -1,0 +1,31 @@
+{
+  "S": [
+    { "name": "Garchomp", "rarity": "epic", "role": "Carry", "synergies": ["Dragon", "Ground"] },
+    { "name": "Mewtwo", "rarity": "ultra", "role": "Carry", "synergies": ["Psychic"] },
+    { "name": "Rayquaza", "rarity": "ultra", "role": "Carry", "synergies": ["Dragon", "Flying"] }
+  ],
+  "A": [
+    { "name": "Tyranitar", "rarity": "rare", "role": "Tank", "synergies": ["Rock", "Dark"] },
+    { "name": "Dragonite", "rarity": "epic", "role": "Carry", "synergies": ["Dragon", "Flying"] },
+    { "name": "Alakazam", "rarity": "rare", "role": "Caster", "synergies": ["Psychic"] },
+    { "name": "Snorlax", "rarity": "uncommon", "role": "Tank", "synergies": ["Normal"] },
+    { "name": "Gyarados", "rarity": "rare", "role": "Carry", "synergies": ["Water", "Dragon"] },
+    { "name": "Machamp", "rarity": "rare", "role": "Carry", "synergies": ["Fighting"] }
+  ],
+  "B": [
+    { "name": "Blastoise", "rarity": "rare", "role": "Tank", "synergies": ["Water"] },
+    { "name": "Charizard", "rarity": "rare", "role": "Carry", "synergies": ["Fire", "Dragon"] },
+    { "name": "Pikachu", "rarity": "common", "role": "Caster", "synergies": ["Electric", "Field"] },
+    { "name": "Gengar", "rarity": "rare", "role": "Caster", "synergies": ["Ghost", "Poison"] },
+    { "name": "Lapras", "rarity": "uncommon", "role": "Support", "synergies": ["Water", "Ice"] }
+  ],
+  "C": [
+    { "name": "Arcanine", "rarity": "uncommon", "role": "Carry", "synergies": ["Fire", "Field"] },
+    { "name": "Raichu", "rarity": "uncommon", "role": "Caster", "synergies": ["Electric", "Field"] },
+    { "name": "Nidoking", "rarity": "rare", "role": "Carry", "synergies": ["Poison", "Ground"] }
+  ],
+  "X": [
+    { "name": "Pidgeot", "rarity": "uncommon", "role": "Carry", "synergies": ["Normal", "Flying"] },
+    { "name": "Tentacruel", "rarity": "uncommon", "role": "Support", "synergies": ["Water", "Poison"] }
+  ]
+}

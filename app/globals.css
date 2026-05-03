@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Rajdhani", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+
+  --color-background: #08090d;
+  --color-foreground: #e8eaf0;
+  --color-muted: #13151f;
+  --color-muted-foreground: #7c8298;
+  --color-card: #0f1118;
+  --color-card-foreground: #e8eaf0;
+  --color-border: #1e2132;
+  --color-primary: #c89b3c;
+  --color-primary-foreground: #08090d;
+  --color-secondary: #1a1d2a;
+  --color-secondary-foreground: #e8eaf0;
+  --color-accent: #c89b3c;
+  --color-accent-foreground: #08090d;
+  --color-destructive: #ef4444;
+  --color-ring: #c89b3c;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+}
+
+* {
+  border-color: var(--color-border);
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  background-image:
+    linear-gradient(rgba(200, 155, 60, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(200, 155, 60, 0.015) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.font-display {
+  font-family: "Rajdhani", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Hex clip-path */
+.hex-clip {
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+}
+
+/* Tier colors */
+.tier-S { --tier-color: #ef4444; --tier-bg: rgba(239,68,68,0.1); }
+.tier-A { --tier-color: #f97316; --tier-bg: rgba(249,115,22,0.1); }
+.tier-B { --tier-color: #eab308; --tier-bg: rgba(234,179,8,0.1); }
+.tier-C { --tier-color: #22c55e; --tier-bg: rgba(34,197,94,0.1); }
+.tier-X { --tier-color: #06b6d4; --tier-bg: rgba(6,182,212,0.1); }
+
+/* Synergy Colors */
+.synergy-normal { background-color: #a8a878; color: #000; }
+.synergy-fire { background-color: #f08030; color: #000; }
+.synergy-water { background-color: #6890f0; color: #000; }
+.synergy-electric { background-color: #f8d030; color: #000; }
+.synergy-grass { background-color: #78c850; color: #000; }
+.synergy-ice { background-color: #98d8d8; color: #000; }
+.synergy-fighting { background-color: #c03028; color: #fff; }
+.synergy-poison { background-color: #a040a0; color: #fff; }
+.synergy-ground { background-color: #e0c068; color: #000; }
+.synergy-flying { background-color: #a890f0; color: #000; }
+.synergy-psychic { background-color: #f85888; color: #000; }
+.synergy-bug { background-color: #a8b820; color: #000; }
+.synergy-rock { background-color: #b8a038; color: #000; }
+.synergy-ghost { background-color: #705898; color: #fff; }
+.synergy-dragon { background-color: #7038f8; color: #fff; }
+.synergy-dark { background-color: #705848; color: #fff; }
+.synergy-steel { background-color: #b8b8d0; color: #000; }
+.synergy-fairy { background-color: #ee99ac; color: #000; }
+.synergy-field { background-color: #d4a373; color: #000; }
+
+/* Item rarity border colors */
+.rarity-common { border-color: #9ca3af; }
+.rarity-uncommon { border-color: #22c55e; }
+.rarity-rare { border-color: #3b82f6; }
+.rarity-epic { border-color: #a855f7; }
+.rarity-ultra { border-color: #f59e0b; }
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: #0f1118; }
+::-webkit-scrollbar-thumb { background: #2a2d3e; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #c89b3c; }
+
+/* Animations */
+@keyframes slide-in-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fade-in-up {
+  from { transform: translateY(12px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes tier-row-enter {
+  from { transform: translateX(-16px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.animate-slide-in-right { animation: slide-in-right 0.25s ease-out; }
+.animate-fade-in-up { animation: fade-in-up 0.3s ease-out both; }
+.animate-tier-row { animation: tier-row-enter 0.35s ease-out both; }

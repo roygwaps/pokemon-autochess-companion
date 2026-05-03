@@ -1,0 +1,64 @@
+[
+  {
+    "id": "dragon-core",
+    "name": "Dragon Core",
+    "tier": "S",
+    "carry": "Garchomp",
+    "units": ["Garchomp", "Rayquaza", "Dragonite", "Gyarados", "Tyranitar"],
+    "earlyGame": ["Trapinch", "Magikarp", "Dratini"],
+    "synergies": [
+      { "name": "Dragon", "count": 4 },
+      { "name": "Ground", "count": 2 }
+    ],
+    "notes": "Roll at level 7–8. Spike at 50g. Garchomp is your primary carry — give it all items. Tyranitar anchors frontline while dragons shred."
+  },
+  {
+    "id": "psychic-surge",
+    "name": "Psychic Surge",
+    "tier": "A",
+    "carry": "Mewtwo",
+    "units": ["Mewtwo", "Alakazam", "Gardevoir", "Espeon", "Slowbro"],
+    "earlyGame": ["Abra", "Drowzee", "Jynx"],
+    "synergies": [
+      { "name": "Psychic", "count": 4 }
+    ],
+    "notes": "Mana overload strategy. Get Psychic 4 early for bonus AP on every ability. Mewtwo deletes anything at full power."
+  },
+  {
+    "id": "fighting-brawl",
+    "name": "Fighting Brawl",
+    "tier": "A",
+    "carry": "Machamp",
+    "units": ["Machamp", "Hitmonlee", "Hitmonchan", "Primeape", "Poliwrath"],
+    "earlyGame": ["Mankey", "Machop", "Poliwag"],
+    "synergies": [
+      { "name": "Fighting", "count": 4 }
+    ],
+    "notes": "Aggressive early tempo. Wins streak with Fighting 4 stun. Machamp Dynamic Punch chains crowd control."
+  },
+  {
+    "id": "water-wall",
+    "name": "Water Wall",
+    "tier": "B",
+    "carry": "Blastoise",
+    "units": ["Blastoise", "Lapras", "Snorlax", "Vaporeon", "Slowbro"],
+    "earlyGame": ["Squirtle", "Seel", "Psyduck"],
+    "synergies": [
+      { "name": "Water", "count": 4 },
+      { "name": "Ice", "count": 2 }
+    ],
+    "notes": "Tank-heavy. Win by outlasting. Snorlax + Blastoise frontline is nearly unkillable with items. Scales well if you survive early."
+  },
+  {
+    "id": "fire-squad",
+    "name": "Fire Squad",
+    "tier": "B",
+    "carry": "Charizard",
+    "units": ["Charizard", "Arcanine", "Flareon", "Rapidash"],
+    "earlyGame": ["Charmander", "Growlithe", "Ponyta"],
+    "synergies": [
+      { "name": "Fire", "count": 4 }
+    ],
+    "notes": "Burns early. Falls off late without legendary upgrades. Strong tempo comp if you hit Charizard at 3-star."
+  }
+]

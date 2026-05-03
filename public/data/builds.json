@@ -1,0 +1,258 @@
+{
+  "Garchomp": {
+    "tier": "S",
+    "role": "Carry",
+    "rarity": "epic",
+    "synergies": ["Dragon", "Ground"],
+    "bestItems": [
+      { "name": "Dragon Fang", "color": "#9C27B0" },
+      { "name": "Lum Berry", "color": "#4CAF50" },
+      { "name": "Life Orb", "color": "#f44336" }
+    ],
+    "altItems": [
+      { "name": "Choice Band", "color": "#FF5722" }
+    ],
+    "notes": "Top late-game carry. Stack attack + sustain. Roll at level 7–8.",
+    "comp": "dragon-core"
+  },
+  "Mewtwo": {
+    "tier": "S",
+    "role": "Carry",
+    "rarity": "ultra",
+    "synergies": ["Psychic"],
+    "bestItems": [
+      { "name": "Twisted Spoon", "color": "#3F51B5" },
+      { "name": "Wise Glasses", "color": "#03A9F4" },
+      { "name": "Lum Berry", "color": "#4CAF50" }
+    ],
+    "altItems": [],
+    "notes": "Full caster. Massive nuke with Psychic 4 active.",
+    "comp": "psychic-surge"
+  },
+  "Rayquaza": {
+    "tier": "S",
+    "role": "Carry",
+    "rarity": "ultra",
+    "synergies": ["Dragon", "Flying"],
+    "bestItems": [
+      { "name": "Dragon Fang", "color": "#9C27B0" },
+      { "name": "Life Orb", "color": "#f44336" },
+      { "name": "Choice Band", "color": "#FF5722" }
+    ],
+    "altItems": [
+      { "name": "Lum Berry", "color": "#4CAF50" }
+    ],
+    "notes": "Best 1-cost carry in Dragon comps. Needs items fast.",
+    "comp": "dragon-core"
+  },
+  "Tyranitar": {
+    "tier": "A",
+    "role": "Tank",
+    "rarity": "rare",
+    "synergies": ["Rock", "Dark"],
+    "bestItems": [
+      { "name": "Rocky Helmet", "color": "#795548" },
+      { "name": "Assault Vest", "color": "#009688" },
+      { "name": "Leftovers", "color": "#8BC34A" }
+    ],
+    "altItems": [],
+    "notes": "Hard frontline. Pairs great with Dragon comps as off-tank.",
+    "comp": "dragon-core"
+  },
+  "Dragonite": {
+    "tier": "A",
+    "role": "Carry",
+    "rarity": "epic",
+    "synergies": ["Dragon", "Flying"],
+    "bestItems": [
+      { "name": "Dragon Fang", "color": "#9C27B0" },
+      { "name": "Choice Band", "color": "#FF5722" },
+      { "name": "Lum Berry", "color": "#4CAF50" }
+    ],
+    "altItems": [],
+    "notes": "Secondary Dragon carry. Flex into Flying for board control.",
+    "comp": "dragon-core"
+  },
+  "Alakazam": {
+    "tier": "A",
+    "role": "Caster",
+    "rarity": "rare",
+    "synergies": ["Psychic"],
+    "bestItems": [
+      { "name": "Twisted Spoon", "color": "#3F51B5" },
+      { "name": "Wise Glasses", "color": "#03A9F4" }
+    ],
+    "altItems": [],
+    "notes": "Psychic support carry. Pairs with Mewtwo.",
+    "comp": "psychic-surge"
+  },
+  "Snorlax": {
+    "tier": "A",
+    "role": "Tank",
+    "rarity": "uncommon",
+    "synergies": ["Normal"],
+    "bestItems": [
+      { "name": "Leftovers", "color": "#8BC34A" },
+      { "name": "Rocky Helmet", "color": "#795548" },
+      { "name": "Assault Vest", "color": "#009688" }
+    ],
+    "altItems": [],
+    "notes": "Frontline anchor. Regen keeps it alive all game.",
+    "comp": "water-wall"
+  },
+  "Gyarados": {
+    "tier": "A",
+    "role": "Carry",
+    "rarity": "rare",
+    "synergies": ["Water", "Dragon"],
+    "bestItems": [
+      { "name": "Dragon Fang", "color": "#9C27B0" },
+      { "name": "Life Orb", "color": "#f44336" },
+      { "name": "Lum Berry", "color": "#4CAF50" }
+    ],
+    "altItems": [],
+    "notes": "Water/Dragon flex carry. Activates both synergies.",
+    "comp": "dragon-core"
+  },
+  "Machamp": {
+    "tier": "A",
+    "role": "Carry",
+    "rarity": "rare",
+    "synergies": ["Fighting"],
+    "bestItems": [
+      { "name": "Black Belt", "color": "#212121" },
+      { "name": "Choice Band", "color": "#FF5722" },
+      { "name": "Lum Berry", "color": "#4CAF50" }
+    ],
+    "altItems": [],
+    "notes": "Dynamic Punch stun wins rounds. Aggressive early tempo.",
+    "comp": "fighting-brawl"
+  },
+  "Blastoise": {
+    "tier": "B",
+    "role": "Tank",
+    "rarity": "rare",
+    "synergies": ["Water"],
+    "bestItems": [
+      { "name": "Rocky Helmet", "color": "#795548" },
+      { "name": "Assault Vest", "color": "#009688" }
+    ],
+    "altItems": [],
+    "notes": "Water frontline. Best when paired with Lapras.",
+    "comp": "water-wall"
+  },
+  "Charizard": {
+    "tier": "B",
+    "role": "Carry",
+    "rarity": "rare",
+    "synergies": ["Fire", "Dragon"],
+    "bestItems": [
+      { "name": "Life Orb", "color": "#f44336" },
+      { "name": "Dragon Fang", "color": "#9C27B0" }
+    ],
+    "altItems": [],
+    "notes": "Burns early. Falls off late without items.",
+    "comp": "fire-squad"
+  },
+  "Pikachu": {
+    "tier": "B",
+    "role": "Caster",
+    "rarity": "common",
+    "synergies": ["Electric", "Field"],
+    "bestItems": [
+      { "name": "Twisted Spoon", "color": "#3F51B5" },
+      { "name": "Wise Glasses", "color": "#03A9F4" }
+    ],
+    "altItems": [],
+    "notes": "Cheap Electric caster. Good early game unit.",
+    "comp": null
+  },
+  "Gengar": {
+    "tier": "B",
+    "role": "Caster",
+    "rarity": "rare",
+    "synergies": ["Ghost", "Poison"],
+    "bestItems": [
+      { "name": "Twisted Spoon", "color": "#3F51B5" },
+      { "name": "Life Orb", "color": "#f44336" }
+    ],
+    "altItems": [],
+    "notes": "Ghost debuffer. Sneaky damage.",
+    "comp": null
+  },
+  "Lapras": {
+    "tier": "B",
+    "role": "Support",
+    "rarity": "uncommon",
+    "synergies": ["Water", "Ice"],
+    "bestItems": [
+      { "name": "Leftovers", "color": "#8BC34A" },
+      { "name": "Assault Vest", "color": "#009688" }
+    ],
+    "altItems": [],
+    "notes": "Ice/Water support. Slows enemy carries.",
+    "comp": "water-wall"
+  },
+  "Arcanine": {
+    "tier": "C",
+    "role": "Carry",
+    "rarity": "uncommon",
+    "synergies": ["Fire", "Field"],
+    "bestItems": [
+      { "name": "Choice Band", "color": "#FF5722" },
+      { "name": "Lum Berry", "color": "#4CAF50" }
+    ],
+    "altItems": [],
+    "notes": "Early Fire carry. Replace when possible.",
+    "comp": "fire-squad"
+  },
+  "Raichu": {
+    "tier": "C",
+    "role": "Caster",
+    "rarity": "uncommon",
+    "synergies": ["Electric", "Field"],
+    "bestItems": [
+      { "name": "Twisted Spoon", "color": "#3F51B5" }
+    ],
+    "altItems": [],
+    "notes": "Pikachu upgrade. Good Electric 4 activator.",
+    "comp": null
+  },
+  "Nidoking": {
+    "tier": "C",
+    "role": "Carry",
+    "rarity": "rare",
+    "synergies": ["Poison", "Ground"],
+    "bestItems": [
+      { "name": "Life Orb", "color": "#f44336" },
+      { "name": "Choice Band", "color": "#FF5722" }
+    ],
+    "altItems": [],
+    "notes": "Poison/Ground flex. Inconsistent but threatening.",
+    "comp": null
+  },
+  "Pidgeot": {
+    "tier": "X",
+    "role": "Carry",
+    "rarity": "uncommon",
+    "synergies": ["Normal", "Flying"],
+    "bestItems": [
+      { "name": "Choice Band", "color": "#FF5722" }
+    ],
+    "altItems": [],
+    "notes": "Low priority. Sells early.",
+    "comp": null
+  },
+  "Tentacruel": {
+    "tier": "X",
+    "role": "Support",
+    "rarity": "uncommon",
+    "synergies": ["Water", "Poison"],
+    "bestItems": [
+      { "name": "Leftovers", "color": "#8BC34A" }
+    ],
+    "altItems": [],
+    "notes": "Niche Poison activator. Not worth building around.",
+    "comp": null
+  }
+}
